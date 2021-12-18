@@ -1,0 +1,3 @@
+The following are the modules used to impliment circiut_II
+
+	circiut_ll, and_gate_16, or_gate_16, alu

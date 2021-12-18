@@ -1,0 +1,41 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project assg3_eval
+# Compile of Adeeb_B190737CS_Q01.v was successful.
+# Compile of Adeeb_B190737CS_TB_Q01.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.RAM4K_tb
+# vsim 
+# Start time: 13:45:20 on Dec 09,2020
+# Loading work.RAM4K_tb
+# Loading work.RAM4K
+# Loading work.demux_1x8
+# Loading work.demux_1x2
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_1x4
+# Loading work.RAM512
+# Loading work.RAM64
+# Loading work.RAM8
+# Loading work.register
+# Loading work.mux_16_8x1
+# Loading work.mux_16_4x1
+# Loading work.mux_16_2x1
+# Loading work.binary_cell
+# Loading work.mux_2x1
+# Loading work.or_gate
+# Loading work.dff_async_high_positive
+# Loading work.dff_with_reset
+# Loading work.nand_3
+# ** Warning: Design size of 30 statements or 2846635 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint sim:/RAM4K_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: jasee  Hostname: LAPTOP-3TC0JJDI  ProcessID: 3792
+# 
+#           Attempting to use alternate WLF file "./wlftf1t3e1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftf1t3e1
+# 
+run

@@ -1,0 +1,37 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+project open C:/Modeltech_pe_edu_10.4a/examples/assgn4
+# Loading project assgn4
+# Compile of Adeeb_B190737CS_Q05.v was successful.
+# Compile of Adeeb_B190737CS_TB_Q05.v was successful.
+# 2 compiles, 0 failed with no errors.
+# vsim 
+# Start time: 15:48:24 on Nov 28,2020
+# Loading work.q5_tb
+# Loading work.q5
+# Loading work.RAM8
+# Loading work.demux_1x8
+# Loading work.demux_1x2
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_1x4
+# Loading work.register
+# Loading work.mux_16_8x1
+# Loading work.mux_16_4x1
+# Loading work.mux_16_2x1
+# Loading work.divider
+# Loading work.binary_cell
+# Loading work.mux_2x1
+# Loading work.or_gate
+# Loading work.pos_dff
+# Loading work.dff
+add wave -position insertpoint sim:/q5_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: jasee  Hostname: LAPTOP-3TC0JJDI  ProcessID: 3792
+# 
+#           Attempting to use alternate WLF file "./wlftn5gyej".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftn5gyej
+# 
+run

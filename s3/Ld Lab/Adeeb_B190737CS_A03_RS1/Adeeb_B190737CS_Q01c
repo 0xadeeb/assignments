@@ -1,0 +1,19 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+project open {C:/Modeltech_pe_edu_10.4a/examples/Assignment 3}
+# Loading project Assignment 3
+# Compile of Adeeb_B190737CS_Q1c_TB.v was successful with warnings.
+# Compile of Adeeb_B190737CS_Q1c.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.dff_async_high_pos_tb
+# vsim 
+# Start time: 20:16:34 on Nov 21,2020
+# Loading work.dff_async_high_pos_tb
+# Loading work.dff_async_pos_high
+# Loading work.or_gate
+# Loading work.dff_sync_pos
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.pos_dff
+# Loading work.dff
+add wave -position insertpoint sim:/dff_async_high_pos_tb/*
+run

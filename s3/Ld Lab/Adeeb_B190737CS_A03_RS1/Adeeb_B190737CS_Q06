@@ -1,0 +1,58 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+project open C:/Modeltech_pe_edu_10.4a/examples/assgn3
+# Loading project assgn3
+# Compile of Adeeb_B190737CS_Q06.v was successful.
+# Compile of Adeeb_B190737CS_Q06_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim work.RAM512_tb
+# vsim 
+# Start time: 22:23:24 on Nov 22,2020
+# Loading work.RAM512_tb
+# Loading work.RAM512
+# Loading work.demux_1x8
+# Loading work.demux_1x2
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_1x4
+# Loading work.RAM64
+# Loading work.RAM8
+# Loading work.register
+# Loading work.mux_16_8x1
+# Loading work.mux_16_4x1
+# Loading work.mux_16_2x1
+# Loading work.binary_cell
+# Loading work.mux_2x1
+# Loading work.or_gate
+# Loading work.pos_dff
+# Loading work.dff
+# ** Warning: (vsim-3015) D:/Adeeb/NITC/2nd Year/Sem3/Logic Design/Lab/Assignment/Adeeb_B190737CS_A03/Adeeb_B190737CS_Q06_TB.v(311): [PCDPC] - Port size (9) does not match connection size (6) for port 'adr'. The port definition is at: D:/Adeeb/NITC/2nd Year/Sem3/Logic Design/Lab/Assignment/Adeeb_B190737CS_A03/Adeeb_B190737CS_Q06_TB.v(254).
+#    Time: 0 ns  Iteration: 0  Instance: /RAM512_tb/ra File: D:/Adeeb/NITC/2nd Year/Sem3/Logic Design/Lab/Assignment/Adeeb_B190737CS_A03/Adeeb_B190737CS_Q06_TB.v
+# ** Warning: Design size of 31 statements or 175531 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be adversely affected.
+vsim work.RAM512_tb
+# vsim 
+# Start time: 22:23:36 on Nov 22,2020
+# Loading work.RAM512_tb
+# Loading work.RAM512
+# Loading work.demux_1x8
+# Loading work.demux_1x2
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_1x4
+# Loading work.RAM64
+# Loading work.RAM8
+# Loading work.register
+# Loading work.mux_16_8x1
+# Loading work.mux_16_4x1
+# Loading work.mux_16_2x1
+# Loading work.binary_cell
+# Loading work.mux_2x1
+# Loading work.or_gate
+# Loading work.pos_dff
+# Loading work.dff
+# ** Warning: (vsim-3015) D:/Adeeb/NITC/2nd Year/Sem3/Logic Design/Lab/Assignment/Adeeb_B190737CS_A03/Adeeb_B190737CS_Q06_TB.v(311): [PCDPC] - Port size (9) does not match connection size (6) for port 'adr'. The port definition is at: D:/Adeeb/NITC/2nd Year/Sem3/Logic Design/Lab/Assignment/Adeeb_B190737CS_A03/Adeeb_B190737CS_Q06_TB.v(254).
+#    Time: 0 ns  Iteration: 0  Instance: /RAM512_tb/ra File: D:/Adeeb/NITC/2nd Year/Sem3/Logic Design/Lab/Assignment/Adeeb_B190737CS_A03/Adeeb_B190737CS_Q06_TB.v
+# ** Warning: Design size of 31 statements or 175531 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint sim:/RAM512_tb/*
+run

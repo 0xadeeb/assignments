@@ -1,0 +1,89 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project asgn2eval
+# Compile of Adeeb_B190737CS_Q01.v was successful.
+# Compile of Adeeb_B190737CS_Q01_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.circuitll_tb
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 14:21:05 on Nov 23,2020
+# Loading work.circuitll_tb
+# Loading work.circuitll
+# Loading work.alu
+# Loading work.and_gate_16
+# Loading work.sixteenbit_negator
+# Loading work.not_gate_16
+# Loading work.mux_16_4x1
+# Loading work.mux_16_2x1
+# Loading work.sixteenbit_adder
+# Loading work.fourbit_adder
+# Loading work.full_adder
+# Loading work.xor_gate
+# Loading work.and_gate
+# Loading work.or_gate
+# Loading work.or_8_inp
+# Loading work.nor_gate
+# Loading work.not_gate
+# Loading work.or_gate_16
+# Loading work.mux_2x1
+add wave -position insertpoint sim:/circuitll_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: jasee  Hostname: LAPTOP-3TC0JJDI  ProcessID: 3792
+# 
+#           Attempting to use alternate WLF file "./wlft9c26cc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft9c26cc
+# 
+add wave -position insertpoint sim:/circuitll_tb/*
+vsim work.circuitll_tb
+# vsim 
+# Start time: 14:21:39 on Nov 23,2020
+# Loading work.circuitll_tb
+# Loading work.circuitll
+# Loading work.alu
+# Loading work.and_gate_16
+# Loading work.sixteenbit_negator
+# Loading work.not_gate_16
+# Loading work.mux_16_4x1
+# Loading work.mux_16_2x1
+# Loading work.sixteenbit_adder
+# Loading work.fourbit_adder
+# Loading work.full_adder
+# Loading work.xor_gate
+# Loading work.and_gate
+# Loading work.or_gate
+# Loading work.or_8_inp
+# Loading work.nor_gate
+# Loading work.not_gate
+# Loading work.or_gate_16
+# Loading work.mux_2x1
+add wave -position insertpoint sim:/circuitll_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: jasee  Hostname: LAPTOP-3TC0JJDI  ProcessID: 3792
+# 
+#           Attempting to use alternate WLF file "./wlftkafs00".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftkafs00
+# 
+run

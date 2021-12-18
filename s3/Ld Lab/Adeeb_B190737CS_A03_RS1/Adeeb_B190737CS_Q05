@@ -1,0 +1,31 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+project open C:/Modeltech_pe_edu_10.4a/examples/assgn3
+# Loading project assgn3
+# Compile of Adeeb_B190737CS_Q05.v was successful.
+# Compile of Adeeb_B190737CS_Q05_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/RAM64_tb/*
+vsim work.RAM64_tb
+# vsim 
+# Start time: 22:12:13 on Nov 22,2020
+# Loading work.RAM64_tb
+# Loading work.RAM64
+# Loading work.demux_1x8
+# Loading work.demux_1x2
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_1x4
+# Loading work.RAM8
+# Loading work.register
+# Loading work.mux_16_8x1
+# Loading work.mux_16_4x1
+# Loading work.mux_16_2x1
+# Loading work.binary_cell
+# Loading work.mux_2x1
+# Loading work.or_gate
+# Loading work.pos_dff
+# Loading work.dff
+# ** Warning: Design size of 31 statements or 21867 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint sim:/RAM64_tb/*
+run

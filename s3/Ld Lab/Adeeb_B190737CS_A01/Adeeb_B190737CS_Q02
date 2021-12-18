@@ -1,0 +1,13 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+project open {D:/Adeeb/NITC/2nd Year/Sem3/Logic Design/Lab/Assignment 1/Asg1}
+# Loading project Asg1
+# Compile of Adeeb_B190737CS_Q02.v was successful.
+# Compile of Adeeb_B190737CS_Q02_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.andgate_tb
+# vsim 
+# Start time: 17:02:58 on Oct 04,2020
+# Loading work.andgate_tb
+# Loading work.and_gate
+add wave -position insertpoint sim:/andgate_tb/*
+run

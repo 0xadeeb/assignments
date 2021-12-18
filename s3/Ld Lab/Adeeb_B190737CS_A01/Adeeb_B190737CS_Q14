@@ -1,0 +1,17 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+project open {D:/Adeeb/NITC/2nd Year/Sem3/Logic Design/Lab/Assignment 1/Asg1}
+# Loading project Asg1
+# Compile of Adeeb_B190737CS_Q14.v was successful.
+# Compile of Adeeb_B190737CS_Q14_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.mux_2x1_16_tb
+# vsim 
+# Start time: 17:44:56 on Oct 04,2020
+# Loading work.mux_2x1_16_tb
+# Loading work.mux_16_2x1
+# Loading work.mux_2x1
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.or_gate
+add wave -position insertpoint sim:/mux_2x1_16_tb/*
+run

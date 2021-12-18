@@ -1,0 +1,2 @@
+Following are the modules from assigment 2 used to create 'ciruitll ' :-
+	mux_16_2x1,or_gate_16,alu

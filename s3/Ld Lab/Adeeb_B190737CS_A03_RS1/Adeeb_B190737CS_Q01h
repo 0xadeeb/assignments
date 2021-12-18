@@ -1,0 +1,21 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+project open C:/Modeltech_pe_edu_10.4a/examples/assgn3
+# Loading project assgn3
+# Compile of Adeeb_B190737CS_Q01h_TB.v was successful.
+# Compile of Adeeb_B190737CS_Q01h.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.dff_async_low_neg_tb
+add wave -position insertpoint sim:/dff_async_low_neg_tb/*
+vsim work.dff_async_low_neg_tb
+# vsim 
+# Start time: 19:14:47 on Nov 22,2020
+# Loading work.dff_async_low_neg_tb
+# Loading work.dff_async_low_neg
+# Loading work.not_gate
+# Loading work.dff_async_high_neg
+# Loading work.dff_async_high_positive
+# Loading work.dff_with_reset
+# Loading work.nand_3
+# Loading work.and_gate
+add wave -position insertpoint sim:/dff_async_low_neg_tb/*
+run

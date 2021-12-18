@@ -1,0 +1,2 @@
+The modules used in this design were:
+	Ram4k(24 bit) and smaller rams, divider, multiplier, mux_2x1_24, dff_async_high_positive and other basic gates

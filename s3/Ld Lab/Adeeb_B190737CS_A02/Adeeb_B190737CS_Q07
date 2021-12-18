@@ -1,0 +1,14 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project LD assgnment
+# Compile of Adeeb_B190737CS_Q07.v was successful.
+# Compile of Adeeb_B190737CS_TB_Q07.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.negator16_tb
+# vsim 
+# Start time: 15:40:06 on Oct 17,2020
+# Loading work.negator16_tb
+# Loading work.sixteenbit_negator
+# Loading work.not_gate_16
+# Loading work.not_gate
+add wave -position insertpoint sim:/negator16_tb/*
+run

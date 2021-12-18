@@ -1,0 +1,21 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+project open C:/Modeltech_pe_edu_10.4a/examples/assgn3
+# Loading project assgn3
+# Compile of Adeeb_B190737CS_Q03_TB.v was successful.
+# Compile of Adeeb_B190737CS_Q03.v was successful.
+# 2 compiles, 0 failed with no errors.
+vlog -work work -refresh -force_refresh
+vsim work.register_tb
+# vsim 
+# Start time: 20:41:42 on Nov 22,2020
+# Loading work.register_tb
+# Loading work.register
+# Loading work.binary_cell
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.mux_2x1
+# Loading work.or_gate
+# Loading work.pos_dff
+# Loading work.dff
+add wave -position insertpoint sim:/register_tb/*
+run

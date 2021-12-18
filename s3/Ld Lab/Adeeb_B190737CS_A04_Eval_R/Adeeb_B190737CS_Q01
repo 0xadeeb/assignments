@@ -1,0 +1,65 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project assg4_eval
+# Compile of Adeeb_B190737CS_TB_Q01.v failed with 5 errors.
+# Compile of Adeeb_B190737CS_TB_Q01.v failed with 4 errors.
+# Compile of Adeeb_B190737CS_TB_Q01.v failed with 3 errors.
+# Compile of Adeeb_B190737CS_TB_Q01.v failed with 1 errors.
+# Compile of Adeeb_B190737CS_TB_Q01.v failed with 1 errors.
+# Compile of Adeeb_B190737CS_TB_Q01.v was successful.
+# Compile of Adeeb_B190737CS_Q01.v was successful.
+# Compile of Adeeb_B190737CS_TB_Q01.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.circuit_tb
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 14:46:59 on Dec 09,2020
+# Loading work.circuit_tb
+# Loading work.circuitIV_III
+# Loading work.multiplier
+# Compile of Adeeb_B190737CS_Q01.v was successful.
+# Compile of Adeeb_B190737CS_TB_Q01.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.circuit_tb
+# vsim 
+# Start time: 14:47:48 on Dec 09,2020
+# Loading work.circuit_tb
+# Loading work.circuitIV_III
+# Loading work.multiplier
+# Loading work.divider
+# Loading work.mux_24_2x1
+# Loading work.RAM4K
+# Loading work.demux_1x8
+# Loading work.demux_1x2
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_1x4
+# Loading work.RAM512
+# Loading work.RAM64
+# Loading work.RAM8
+# Loading work.register
+# Loading work.mux_24_8x1
+# Loading work.mux_24_4x1
+# Loading work.mux_2x1
+# Loading work.or_gate
+# Loading work.binary_cell
+# Loading work.dff_async_high_positive
+# Loading work.dff_with_reset
+# Loading work.nand_3
+

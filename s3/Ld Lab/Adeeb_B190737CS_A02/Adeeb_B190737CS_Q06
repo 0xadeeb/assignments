@@ -1,0 +1,20 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+project open {C:/Modeltech_pe_edu_10.4a/examples/LD assngmnt}
+# Loading project LD assngmnt
+# Compile of Adeeb_B190737CS_Q06.v was successful.
+# Compile of Adeeb_B190737CS_TB_Q06.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.sixteenbit_incrementer_tb
+# vsim 
+# Start time: 12:34:52 on Oct 17,2020
+# Loading work.sixteenbit_incrementer_tb
+# Loading work.sixteenbit_incrementer
+# Loading work.sixteenbit_adder
+# Loading work.fourbit_adder
+# Loading work.full_adder
+# Loading work.xor_gate
+# Loading work.and_gate
+# Loading work.or_gate
+add wave -position insertpoint sim:/sixteenbit_incrementer_tb/*
+run
+run

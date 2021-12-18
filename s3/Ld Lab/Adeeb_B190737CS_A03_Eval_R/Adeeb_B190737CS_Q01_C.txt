@@ -1,0 +1,6 @@
+The following are the modules from assignment 3 using for the module
+	RAM_4k, RAM_512, RAM_64, RAM_8, register, binary_cell(with dff_async_high_positive as asked in the question), 
+	dff_with_reset, and the other basic gates
+
+Since in the question it was told to assume things if it's not clear, I've assumed that there will be a clock and reset chip, because without those 
+there is no point of an ansynchoronus d flip flop.

@@ -1,0 +1,3 @@
+Following are the names of the gates from assginment used to impliment circiutl :-
+
+	not_gate,mux_16_2x1,xor_gate_16,nor_gate,xnor_gate,nand,and_gate_16,not_gate_16
