@@ -1,0 +1,27 @@
+From: Stallings@xyz
+To: Andrew@xyu
+Subject: Mail to check
+Recieved: 28-3-2022, 10:21
+Hi there
+how are you?
+Long time no see
+Regards
+Andrew
+.
+From: Stallings@xyz
+To: Andrew@xyu
+Subject: New mail
+Recieved: 28-3-2022, 10:41
+Just a check again
+thanks
+bye
+Andrew
+From: Stallings@yii
+To: Andrew@uhb
+Subject: How's life
+Recieved: 28-3-2022, 13:0
+so i am here and where are you?
+Thanks
+Regrads
+Stallings
+.

@@ -1,0 +1,36 @@
+#+TITLE: Assignment 6 - File Transfer Application Program
+
+* Compiling and executing the program
+- Run ~gcc -o server server.c~ from FTAPServer directory to compile the server code.
+- Run ~gcc -o client client.c~ from FTAPClient directory to compile the client code.
+- Run ~./server~ and ~./client~ from different terminals to execute the program.
+
+* Implementation details
+** Both server and client programs has:
+  1. Main function
+     Connects the server and client.
+  2. Authenticate function
+     Checks if the username and password provided by the client is authentic to start file transfer.
+  3. Communicate function
+     This function has multiple implementations
+     a. listDir function - Sends the names of all files in the server's directory.
+     b. createFile function - Creates an empty .txt file in the server's directory.
+     c. storeFile function - Sends a file in client directory to server's directory.
+     d. getFile function - Retrieves a file from server's directory and sends it to client's directory.
+
+** Status codes used by the server.
+     |-------------+----------------------------------|
+     | Status Code | Used for                         |
+     |-------------+----------------------------------|
+     |         200 | OK Connection is set up          |
+     |         201 | Successfully file created        |
+     |         202 | Initializing file transfer       |
+     |         300 | Correct Username; Need password  |
+     |         301 | Incorrect Username               |
+     |         305 | User Authenticated with password |
+     |         310 | Incorrect Password               |
+     |         401 | File already exists              |
+     |         402 | Can't open file                  |
+     |         405 | Unknown error                    |
+     |         505 | Command not supported            |
+     |-------------+----------------------------------|
